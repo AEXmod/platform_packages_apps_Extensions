@@ -740,6 +740,10 @@
     <string name="media_scanner_on_boot_ask">Ask to scan (notification)</string>
     <string name="media_scanner_on_boot_disabled">Do not scan media</string>
 
+    <!-- Notification count -->
+    <string name="status_bar_notif_count_title">Show notification count</string>
+    <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
+
     <!-- Status bar clock options -->
     <string name="status_bar_title">Status bar</string>
     <string name="status_bar_style_title">Style</string>

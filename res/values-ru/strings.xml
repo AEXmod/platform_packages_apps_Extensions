@@ -984,5 +984,9 @@
     <string name="lockscreen_hide_status_bar_title">Статусбар на экране блокировки</string>
     <string name="lockscreen_hide_status_bar_summary">Скрыть статусбар на экране блокировки</string>
 
+    <!-- Notification count -->
+    <string name="status_bar_notif_count_title">Показать счетчик уведомлений</string>
+    <string name="status_bar_notif_count_summary">Отображать количество полученных уведомлений</string>
+
 </resources>
 
