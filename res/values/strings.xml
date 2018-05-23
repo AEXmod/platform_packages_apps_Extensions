@@ -1027,5 +1027,7 @@
     <string name="slim_blacklist_apps_summary">Apps to not show in the panel</string>
     <string name="slim_blacklist_add_apps_title">Add app</string>
     <string name="slim_blacklist_add_apps_summary">Tap here to add, tap on added app to remove it</string>
-
+    <!-- XiaomiParts -->
+    <string name="device_part_title">XiaomiParts</string>
+    <string name="device_part_opt">Tweaks</string>
 </resources>
