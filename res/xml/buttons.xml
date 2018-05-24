@@ -42,12 +42,18 @@
              android:title="@string/power_menu_title"
              android:summary="@string/power_menu_title_summary"
 	     android:fragment="org.aospextended.extensions.PowerMenuSettings" />
+
+    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+        android:key="wallpaper_power_menu_tint"
+        android:title="@string/wallpaper_tint_power_menu"
+        android:summary="@string/wallpaper_tint_summary"
+        android:defaultValue="true" />
+
     </PreferenceCategory>
 
 <PreferenceCategory
         android:key="brightness_keys"
         android:title="@string/button_brightness_title" >
-
 
 
     <ListPreference
@@ -71,6 +77,7 @@
         android:title="@string/button_backlight_on_touch_only_title"
         android:summary="@string/button_backlight_on_touch_only_summary"
         android:defaultValue="false" />
+
 
     </PreferenceCategory>
 

@@ -989,5 +989,11 @@
     <string name="status_bar_notif_count_title">Показать счетчик уведомлений</string>
     <string name="status_bar_notif_count_summary">Отображать количество полученных уведомлений</string>
 
+    <!-- Wallpaper tint -->
+    <string name="wallpaper_tint_power_menu">Затенение фона меню питания</string>
+    <string name="wallpaper_tint_recents">Затенение фона панели недавних приложений</string>
+    <string name="wallpaper_tint_keyguard">Затенение фона экрана блокировки</string>
+    <string name="wallpaper_tint_notification_shade">Затенение фона шторки уведомлений</string>
+    <string name="wallpaper_tint_summary">Применить затенение на обои домашнего экрана</string>
 </resources>
 

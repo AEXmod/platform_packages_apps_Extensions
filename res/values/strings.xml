@@ -997,6 +997,7 @@
     <string name="sensor_block_title">Sensor block per-package</string>
     <string name="sensor_block_summary">Block access to certain sensors for some apps to save battery.</string>
 
+
     <string name="chooser_activity_blacklist_title">Chooser Activity blacklist</string>
     <string name="chooser_activity_blacklist_summary">Apps to not show when tapping on a Share button</string>
     <string name="chooser_activity_blacklist_cat_title">Blacklist</string>
@@ -1048,6 +1049,13 @@
     <string name="slim_blacklist_apps_summary">Apps to not show in the panel</string>
     <string name="slim_blacklist_add_apps_title">Add app</string>
     <string name="slim_blacklist_add_apps_summary">Tap here to add, tap on added app to remove it</string>
+
+    <!-- Wallpaper tint -->
+    <string name="wallpaper_tint_power_menu">Power menu background tint</string>
+    <string name="wallpaper_tint_recents">Recents background tint</string>
+    <string name="wallpaper_tint_keyguard">Lockscreen background tint</string>
+    <string name="wallpaper_tint_notification_shade">Notification shade tint</string>
+    <string name="wallpaper_tint_summary">Apply a tint to the background based on the homescreen wallpaper</string>
 
     <!-- Hide statusbar on lockscreen -->
     <string name="lockscreen_hide_status_bar_title">Hide statusbar on lockscreen</string>

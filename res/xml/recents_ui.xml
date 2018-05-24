@@ -68,6 +68,13 @@
         android:entries="@array/recents_kill_app_entries"
         android:entryValues="@array/recents_kill_app_values"
         android:defaultValue="1"/>
+
+    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+        android:key="wallpaper_recents_tint"
+        android:title="@string/wallpaper_tint_recents"
+        android:summary="@string/wallpaper_tint_summary"
+        android:defaultValue="true" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
