@@ -1039,6 +1039,7 @@
     <string name="lockscreen_clock_selection_analog_deadpool">Analog (deadpool)</string>
     <string name="lockscreen_clock_selection_sammy">Sammy</string>
     <string name="lockscreen_clock_selection_sammy_bold">Sammy (bold)</string>
+    <string name="lockscreen_clock_selection_small">Small Digital</string>
 
     <!-- Hide statusbar on lockscreen -->
     <string name="lockscreen_hide_status_bar_title">Hide statusbar on lockscreen</string>
