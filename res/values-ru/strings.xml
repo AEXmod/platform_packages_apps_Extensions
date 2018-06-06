@@ -979,6 +979,7 @@
     <string name="lockscreen_clock_selection_sammy">Sammy</string>
     <string name="lockscreen_clock_selection_sammy_bold">Sammy (жирный)</string>
     <string name="lockscreen_clock_selection_small">Цифровой (маленький)</string>
+    <string name="lockscreen_clock_selection_analog_spidey">Аналоговый (Spidey)</string>
 
     <!-- Hide statusbar on lockscreen -->
     <string name="lockscreen_hide_status_bar_title">Статусбар на экране блокировки</string>
