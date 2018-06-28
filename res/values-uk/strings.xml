@@ -19,7 +19,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     
     <!-- General app strings -->
-    <string name="extensions_title">Расширення</string>
+    <string name="extensions_title">Розширення</string>
     <string name="add">Додати</string>
     <string name="advanced">Додатково</string>
     <string name="choose_app">Вибрати додаток</string>
@@ -30,7 +30,7 @@
     <string name="security_category">Безпека</string>
     <string name="hardware_category">Обладнання</string>
     <string name="aosp_recents_category">AOSP запущені програми</string>
-    <string name="light_category">Світлодіод</string>
+    <string name="light_category">Діод</string>
     <string name="dlg_ok">OK</string>
     <string name="attention">Увага</string>
     <string name="loading">Завантаження\u2026</string>
@@ -96,9 +96,9 @@
     <string name="animations_title">Анімація</string>
 
     <!-- App info dialog -->
-    <string name="extensions_dialog_title">Help us help you!</string>
-    <string name="extensions_dialog_message">If you find a bug with any of these settings, post in the Bug Reports section of our Google+ page. You MUST include the following when posting a bug report:\n\n1. A logcat or last_kmsg\n2. Kernel and mods used\n3. Useful information\n\nIf you fail to report something adequately, DO NOT expect things to be fixed.</string>
-    <string name="extensions_dialog_toast">READ THE WHOLE THING!</string>
+    <string name="extensions_dialog_title">Допоможіть нам для допомоги тобі!</string>
+    <string name="extensions_dialog_message">Якщо ви виявите баг, опублікуюте в розділі Звіти про помилки на нашій сторінці Google+. Ви повинні включати наступне при надсиланні звіту про помилку:\n\n1. logcat або last_kmsg\n2. Ядро та використані моди\n3. Корисна інформація\n\nЯкщо ви не повідомляєте щось належним чином, значить не даємо гарантії що баг буде виправлено.</string>
+    <string name="extensions_dialog_toast">ПРОЧИТАЙТЕ ЦЕ ВСЕ!</string>
 
 	<!-- Color Picker -->
 	<string name="dialog_color_picker">Палітра</string>
@@ -177,7 +177,7 @@
 
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">Швидкий доступ</string>
-    <string name="quick_pulldown_summary">%1$s край рядку стану при спуску вниз відкриває панель швидких налаштувань</string>
+    <string name="quick_pulldown_summary">Вибраний край рядку стану при спуску вниз відкриває панель швидких налаштувань</string>
     <string name="quick_pulldown_summary_always">Завжди відкривати панель швидких налаштувань при спуску вниз рядка стану</string>
     <string name="quick_pulldown_off">Викл.</string>
     <string name="quick_pulldown_left">Лівий</string>
@@ -189,7 +189,7 @@
 
     <!-- Lockscreen icons -->
     <string name="lockscreen_tuner_title">Екран блокування</string>
-    <string name="hide_lockscreen_items_title">Елементы екрана блокування</string>
+    <string name="hide_lockscreen_items_title">Елементи екрана блокування</string>
 
     <!-- Force expanded notifications -->
     <string name="force_expanded_notifications_title">Примусово розширені сповіщення</string>
@@ -634,13 +634,13 @@
   <string name="qs_appearance_category">Заголовки</string>
   <string name="qs_misc_category">Різне</string>
     <!-- Facelock -->
-  <string name="faceunlock_title">Розблокування FaceUnlock</string>
+  <string name="faceunlock_title">Розблокування обличчям</string>
   <string name="faceunlock_summary">Автоматичне разблокування за допомогою Google FaceUnlock</string>
 
     <!-- Screen Off animation -->
   <string name="screen_off_animation_title">Анімація вимкнення екрана</string>
   <string name="screen_off_animation_default">За замовчуванням</string>
-  <string name="screen_off_animation_crt">ЭЛТ</string>
+  <string name="screen_off_animation_crt">ЕЛТ</string>
   <string name="screen_off_animation_scale">Масштаб</string>
 
   <!-- Screen state service -->
@@ -687,7 +687,7 @@
   <string name="clock_date_display_summary">Відображати дату перед годиною</string>
   <string name="clock_date_style">Стиль дати</string>
   <string name="clock_date_format">Формат дати</string>
-  <string name="clock_date_string_edittext_title">Формат повинен бути в DateFormat, наприклад MM/dd/yy</string>
+  <string name="clock_date_string_edittext_title">Формат повинен бути в DataFormat, наприклад MM/ДД/РР</string>
   <string name="clock_date_string_edittext_summary">Введіть строку</string>
   <string name="am_pm_clock_normal">Нормальний розмір</string>
   <string name="am_pm_clock_small">Малий розмір</string>
@@ -719,13 +719,13 @@
     <string name="battery_style_port">Вертикальний значок</string>
     <string name="battery_style_land">Горизонтальний значок</string>
     <string name="battery_style_circle">Коло</string>
-    <string name="battery_style_dotted_circle">Коло з крапок</string>
+    <string name="battery_style_dotted_circle">Пунктирне коло</string>
     <string name="battery_style_big_circle">Велике коло</string>
-    <string name="battery_style_big_dotted_circle">Велике коло з крапок</string>
+    <string name="battery_style_big_dotted_circle">Велике пунктирне коло</string>
     <string name="battery_style_text">Текст</string>
     <string name="battery_style_hidden">Немає</string>
     <string name="battery_style_square">Квадрат</string>
-    <string name="show_battery_percent_title">Відсоток заряда</string>
+    <string name="show_battery_percent_title">Відсоток заряду</string>
     <string name="battery_style_category_title">Іконка батареї</string>
     <string name="battery_percent_none">Не показувати</string>
     <string name="battery_percent_outside">Поряд з іконкою</string>
@@ -734,7 +734,7 @@
     <!-- SmartBar -->
     <string name="smartbar_category">SmartBar</string>
     <string name="smartbar_settings_title">Налаштування SmartBar</string>
-    <string name="smartbar_settings_summary">Повністю налаштуєма панель навигації</string>
+    <string name="smartbar_settings_summary">Повністю налаштуєма панель навігації</string>
     <string name="smartbar_editor_title">Режим редагування</string>
     <string name="smartbar_editor_summary">Відкрити режим редагування</string>
     <string name="smartbar_help_policy_notice_summary">В режимі редагування: натисність і перемістіть кнопку, утримуйте кнопку для відкриття меню параметрів. Кнопки можуть переміщатися при відкритому меню налаштувань.\n\nДія подвійного натискання призводить до затримки одиночного натискання.</string> 
@@ -926,5 +926,82 @@
     <!-- Sensor block per-package -->
     <string name="sensor_block_title">Блокування сенсора в додатках</string>
     <string name="sensor_block_summary">Блокувати доступ до певних датчиків в деяких програмах для економії заряда батареї.</string>
+
+    <string name="qs_running_services_title">Іконка запущених сервисів</string>
+    <string name="qs_running_services_summary">Прибрати іконку запущених сервисів</string>
+
+    <string name="chooser_activity_blacklist_title">Вибрати Activity blacklist</string>
+    <string name="chooser_activity_blacklist_summary">Не відображати програми при натисканні кнопки Поділитись</string>
+    <string name="chooser_activity_blacklist_cat_title">Чорний список</string>
+    <string name="chooser_activity_blacklist_pref_title">Добавити програму</string>
+    <string name="chooser_activity_blacklist_pref_summary">Натисніть тут, щоб додати, натисніть на додану програму, щоб видалити її</string>
+    
+    <!-- Slim Recents panel -->
+    <string name="slim_recents_title">Панель нещодавніх програм Slim</string>
+    <string name="use_slim_recents_title">Використовувати альтернативну панель нещодавніх програм</string>
+    <string name="use_slim_recents_summary">Використовувати панель нещодавніх програм Slim замість стокової</string>
+    <string name="slim_recents_settings_title">Налаштування панелі нещодавніх програм Slim</string>
+    <string name="slim_recents_settings_summary">Подивитись налаштування панелі нещодавніх програм Slim</string>
+    <string name="recents_max_apps_title">Максимально допустима кількість програм</string>
+    <string name="recent_panel_scale_title">Розмір</string>
+    <string name="recent_panel_expanded_mode_title">Попередній перегляд розширеного режима</string>
+    <string name="recent_panel_expanded_mode_summary">Розширений поп. перегляд нещодавніх програм</string>
+    <string name="recent_panel_expanded_mode_auto">Авто (за замовчуванням)</string>
+    <string name="recent_panel_expanded_mode_always">Всі прев'ю</string>
+    <string name="recent_panel_expanded_mode_never">Вимкнено</string>
+    <string name="recent_panel_bg_color_title">Колір фона панелі</string>
+    <string name="recent_card_bg_color_title">Колір фона карточки</string>
+    <string name="recent_reset_title">Скинути до налаштувань за замовчуванням</string>
+    <string name="recent_reset_confirm">Ви впевнені, що бажаєте скинути колір фона нещодавніх програм Slim?</string>
+    <string name="default_auto_string">За замовчуванням</string>
+    <string name="slim_icon_pack_title">Набір значків</string>
+    <string name="slim_icon_pack_summary">Застосувати користувацький набір значків для програм в панелі</string>
+    <string name="slim_recents_corner_radius_title">Використовувати заокруглені кути для карточок</string>
+    <!-- ATTENTION: RTL languages need to replace left with right -->
+    <string name="recent_panel_lefty_mode_title">Відображати ліворуч</string>
+    <string name="recent_panel_lefty_mode_summary">Відображати панель нещодавніх програм біля лівого краю</string>
+    <string name="slim_blacklist_apps_cat_title">Чорний список</string>
+    <string name="slim_blacklist_apps_title">Чорний список програм</string>
+    <string name="slim_blacklist_apps_summary">Приховані програми</string>
+    <string name="slim_blacklist_add_apps_title">Додати програму</string>
+    <string name="slim_blacklist_add_apps_summary">Натисніть тут, щоб додати, натисніть на додану програму, щоб видалити її</string>
+
+    <string name="lockscreen_date_selection_title">Стиль дати</string>
+    <string name="lockscreen_date_selection_default">За замовчуванням (розмір більше)</string>
+    <string name="lockscreen_date_selection_default_aosp">За замовчуванням</string>
+    <string name="lockscreen_date_selection_str_box">Напівпрозорий</string>
+    <string name="lockscreen_date_selection_str_round">Напівпрозорий округлений</string>
+    <string name="lockscreen_clock_selection_title">Стиль годинника</string>
+    <string name="lockscreen_clock_selection_digital">За замовчуванням</string>
+    <string name="lockscreen_clock_selection_digital_bold">Цифровий (жирний)</string>
+    <string name="lockscreen_clock_selection_analog">Аналоговий</string>
+    <string name="lockscreen_clock_selection_analog_deadpool">Аналоговий (Deadpool)</string>
+    <string name="lockscreen_clock_selection_sammy">Sammy</string>
+    <string name="lockscreen_clock_selection_sammy_bold">Sammy (жирний)</string>
+    <string name="lockscreen_clock_selection_small">Цифровий (маленький)</string>
+    <string name="lockscreen_clock_selection_analog_spidey">Аналоговий (Spidey)</string>
+
+    <!-- Hide statusbar on lockscreen -->
+    <string name="lockscreen_hide_status_bar_title">Статусбар на екрані блокування</string>
+    <string name="lockscreen_hide_status_bar_summary">При статусбар на екрані блокування</string>
+
+    <!-- Notification count -->
+    <string name="status_bar_notif_count_title">Відображати лічильник сповіщень</string>
+    <string name="status_bar_notif_count_summary">Відображати кількість отриманих сповіщень</string>
+   
+    <!-- Edge gestures -->
+    <string name="edge_gestures_title">Крайові жести</string>
+    <string name="edge_gestures_feedback_duration_title">Тривалість зворотнього зв'язку</string>
+    <string name="edge_gestures_long_press_delay_title">Затримка, доки триватиме дія натискання</string>
+    <string name="edge_gestures_back_category_title">Жест назад</string>
+    <string name="edge_gestures_back_edges_title">Зняти жест "Назад"</string>
+    <string name="edge_gestures_landscape_back_edges_title">Включити жест "Назад" в ландшафтному режимі</string>
+    <string name="edge_gestures_back_screen_percent_title">Жест "Назад" повинен починатися нижче цього відсотка на екрані</string>
+    <string name="edge_gestures_back_screen_percent_summary">Тригер нижче % екрана</string>
+    <string name="edge_gestures_summary">Використовуйте навігацію, використовуючи жести краю</string>
+
+    <!-- SystemUI Restart -->
+    <string name="systemui_restart_title">Потрібне перезавантаження SystemUI</string>
+    <string name="systemui_restart_message">Щоб всі зміни набули чинності, необхідно перезавантажити SystemUI. Перезавантажити SystemUI зараз?</string>
 
 </resources>
