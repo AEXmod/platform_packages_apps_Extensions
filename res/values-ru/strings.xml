@@ -995,5 +995,16 @@
     <string name="wallpaper_tint_keyguard">Затенение фона экрана блокировки</string>
     <string name="wallpaper_tint_notification_shade">Затенение фона шторки уведомлений</string>
     <string name="wallpaper_tint_summary">Применить затенение на обои домашнего экрана</string>
+
+    <!-- Edge gestures -->
+    <string name="edge_gestures_title">Edge жесты</string>
+    <string name="edge_gestures_feedback_duration_title">Длительность виброотклика</string>
+    <string name="edge_gestures_long_press_delay_title">Задержка до следующего действия</string>
+    <string name="edge_gestures_back_category_title">Жест Назад</string>
+    <string name="edge_gestures_back_edges_title">Область жеста</string>
+    <string name="edge_gestures_landscape_back_edges_title">Область жеста в горизонтальной ориентации</string>
+    <string name="edge_gestures_back_screen_percent_title">Активная область жеста \"Назад\" будет ниже этого процента экрана</string>
+    <string name="edge_gestures_back_screen_percent_summary">Активная область ниже % экрана</string>
+    <string name="edge_gestures_summary">Навигация с помощью жестов</string>
 </resources>
 
